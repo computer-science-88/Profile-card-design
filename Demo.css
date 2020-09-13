@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container{
+    height: 470px;
+    width: 350px;
+    overflow: hidden;
+    background:linear-gradient(45deg,#884445,#6682bc);
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+.container .wrapper img{
+    position: relative;
+    z-index: 20;
+    border-radius: 50%;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border:5px solid #fff;
+    object-fit: cover;
+    margin:20px auto;
+}
+.wrapper .title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+.wrapper .place{
+    color: #fff;
+    font-size: 17px;
+    line-height: 0px;
+    margin: 10px 0;
+    letter-spacing: 2px;
+}
+.content{
+    color: #fff;
+    font-size: 17px;
+    margin-top: 10px;
+    padding: 1px 20px 10px 20px;
+    letter-spacing: 1px;
+}
+.content .buttons{
+    display: flex;
+}
+.buttons .btn{
+    height: 40px;
+    width: 150px;
+    margin: 0 5px;
+}
+.buttons .btn button{
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.btn button:hover{
+    transform: scale(0.9);
+}
+.container .icons{
+    position: relative;
+    margin-top: -435px;
+    list-style-type: none;
+    margin-left: 10px;
+}
+.container .icons li{
+    height: 40px;
+    width: 40px;
+    margin: 5px 0;
+}
+.container .icons li a{
+    height: 100%;
+    width: 100%;
+    display: block;
+    line-height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+.container .icons li a{
+    transform: scale(0.9);
+}
+.container .icons li a:hover{
+    transform: scale(1.5);
+}
